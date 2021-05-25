@@ -27,7 +27,7 @@ describe('Editor Testing', function() {
 
 		cy.get('#ql-picker-options-15 > [data-value="#e60000"]').click({ force: true, multiple: true });
 
-		// cy.get('.text-Editor > .ql-container > .ql-editor')
+		
 		cy.get('.text-Editor > .ql-container > .ql-editor').type('We Change the font to Red Color').type('{enter}');
 	});
 });
